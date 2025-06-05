@@ -5,14 +5,14 @@ from operator import index
 ROW = 5
 COL = 5
 PLAYER1 = "I"
-PLAYER2 = "O"vfd
+PLAYER2 = "O"
 POS1 = (0,0)
 POS2 = (0,0)
 SNAKE = "~"
 LATTER = "#"
 snake_indx = []
 snake_val = []
-latter_indx = [""]
+latter_indx = ["gdf"]
 latter_val = []
 
 board = [["S",0,0,0,0],
