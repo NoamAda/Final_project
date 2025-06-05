@@ -67,6 +67,17 @@ def position(player,dice,board):
     player = (c1,c2)
     return player
 
-print(position(player,11,board))
-print( )
-print(position(player,4,board))
+def main():
+    board = random_position(board)
+    count = 1
+    pos1 = (0,0)
+    pos2 = (0,0)
+    while player != (-1,-1):
+        if count %2==0:
+            step = roll_cube()
+            print(f"you now move {step} steps")
+
+
+
+
+
