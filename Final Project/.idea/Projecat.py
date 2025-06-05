@@ -58,5 +58,15 @@ def random_position(board):
         return board
 
 
-random_position(board)
-print_board(board)
+def position(player,dice,board):
+    x = player[0]
+    y = player[1]
+    calc = (x*5) + y + dice
+    c1 = calc//5
+    c2 = calc%5
+    player = (c1,c2)
+    return player
+
+print(position(player,11,board))
+print( )
+print(position(player,4,board))
