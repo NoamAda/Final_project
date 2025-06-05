@@ -39,7 +39,7 @@ def turn(count):
 
 
 def random_position(board):
-        for i in range(5):
+        for i in range(4):
             x = random.randint(1,4)
             y  = random.randint (0,4)
             posis = (x,y)
@@ -47,7 +47,7 @@ def random_position(board):
             random_minus = random.randint(-10,0)
             snake_val.append(random_minus)
             board[x][y] = SNAKE
-        for i in range(4):
+        for i in range(3):
             x = random.randint(1,4)
             y  = random.randint (0,3)
             posup = (x,y)
@@ -67,6 +67,9 @@ def position(player,dice,board):
     player = (c1,c2)
     return player
 
-print(position(player,11,board))
-print( )
-print(position(player,4,board))
+random_position(board)
+print_board(board)
+print("s_indx",snake_indx)
+print("s_val",snake_val)
+print("l_indx",latter_indx)
+print("l_val",latter_val)
