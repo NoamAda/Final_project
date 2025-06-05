@@ -12,7 +12,7 @@ SNAKE = "~"
 LATTER = "#"
 snake_indx = []
 snake_val = []
-latter_indx = ["gdf"]
+latter_indx = ["gdgdfgf"]
 latter_val = []
 
 board = [["S",0,0,0,0],
