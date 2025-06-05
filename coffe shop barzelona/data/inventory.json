@@ -1,0 +1,20 @@
+{
+    "Espresso": {
+        "quantity": 10,
+        "price": 2.5,
+        "cost": 1.2,
+        "category": "Coffee"
+    },
+    "Croissant": {
+        "quantity": 5,
+        "price": 3.0,
+        "cost": 1.5,
+        "category": "Pastry"
+    },
+    "Cappuccino": {
+        "quantity": 7,
+        "price": 3.5,
+        "cost": 1.7,
+        "category": "Coffee"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "Espresso": {
+        "price": 2.5,
+        "cost": 1.0,
+        "quantity": 20,
+        "category": "Coffee"
+    },
+    "Cappuccino": {
+        "price": 3.5,
+        "cost": 1.5,
+        "quantity": 15,
+        "category": "Coffee"
+    },
+    "Latte": {
+        "price": 4.0,
+        "cost": 1.8,
+        "quantity": 10,
+        "category": "Coffee"
+    },
+    "Chocolate Croissant": {
+        "price": 3.0,
+        "cost": 1.2,
+        "quantity": 25,
+        "category": "Pastry"
+    },
+    "Blueberry Muffin": {
+        "price": 3.2,
+        "cost": 1.3,
+        "quantity": 18,
+        "category": "Pastry"
+    }
+}
